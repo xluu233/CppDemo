@@ -11,7 +11,7 @@ void safe_increment()
     lock_guard<mutex> lockGuard(mt);
     ++i;
     cout << this_thread::get_id() << ": " << i << endl;
-    this_thread::sleep_for(chrono::seconds(3));
+    this_thread::sleep_for(chrono::seconds(1));
 }
  
 

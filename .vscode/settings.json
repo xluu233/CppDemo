@@ -57,6 +57,10 @@
         "thread": "cpp",
         "typeinfo": "cpp",
         "stack": "cpp",
-        "cstring": "cpp"
+        "cstring": "cpp",
+        "forward_list": "cpp",
+        "set": "cpp",
+        "span": "cpp",
+        "list": "cpp"
     }
 }
