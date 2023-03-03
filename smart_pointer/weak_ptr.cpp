@@ -26,8 +26,8 @@ int main() {
     a->pointer = b;
     b->pointer = a;
 
-    cout << a.use_count() << endl;
-    cout << b.use_count() << endl;
+    cout << "a.use_count()  =  " << a.use_count() << endl;
+    cout << "b.use_count()  =  " << b.use_count() << endl;
 
     cout << a->pointer.expired() << endl;
     cout << b->pointer.expired() << endl;
